@@ -3,7 +3,7 @@ set -e
 
 cd Devops-Ynov/api/
 
-echo "PING_LISTEN_PORT=4000" > .env
+export PING_LISTEN_PORT=5000
 
 echo "Init du projet"
 npm init -y

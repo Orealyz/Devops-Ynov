@@ -1,6 +1,3 @@
-import { config } from "dotenv";
-config(); 
-
 import { createServer, IncomingMessage, ServerResponse } from 'http';
 
 const PORT = process.env.PING_LISTEN_PORT ? parseInt(process.env.PING_LISTEN_PORT, 10) : 3000;
