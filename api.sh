@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-cd api/
+cd Devops-Ynov/api/
 
 echo "PING_LISTEN_PORT=4000" > .env
 
